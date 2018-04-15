@@ -1,0 +1,57 @@
+package Jaya;
+
+public class Mobile {
+	
+	
+	static void run ()
+	{   int n =10;
+	    int s = 22;
+	    int y;
+	    y=n+s;
+		System.out.println(y);
+	}
+	
+	static void mul()
+
+	{
+		int a=2;
+		int b=7;
+		int c=a*b;
+		if(c==15)//condition true
+		{
+		System.out.println(c);
+		}
+		else
+		{
+			System.out.println("False");
+		}
+		
+	}
+	static void pattern ()
+	{
+		int i =1;
+		for (i = 0; i<=5; i++)
+		{
+			System.out.println(i);
+			if (i==3)
+			{
+				System.out.println("true");
+			}
+		}
+		
+	
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		run();
+		mul();
+		pattern();
+			}
+		
+	
+			
+	}
+   
